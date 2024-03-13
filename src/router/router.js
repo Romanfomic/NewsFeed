@@ -1,10 +1,15 @@
-import PostPage from "@/pages/PostPage"
 import {createRouter, createWebHistory} from "vue-router";
+import PostPage from "@/pages/PostPage"
+import MainPage from "@/pages/MainPage";
 
 const routes = [
     {
         path: '/post',
         component: PostPage
+    },
+    {
+        path: '/',
+        component: MainPage
     }
 ]
 
